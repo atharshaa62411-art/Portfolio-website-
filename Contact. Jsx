@@ -1,0 +1,24 @@
+import React from "react";
+import { Github, Linkedin, Mail } from "lucide-react";
+
+const Contact = () => {
+  return (
+    <section id="contact" className="bg-black py-16 text-center">
+      <h3 className="text-3xl font-bold mb-8 text-yellow-400">Contact Me</h3>
+      <p className="text-lg mb-6">Let’s build something amazing together!</p>
+      <div className="flex justify-center gap-6">
+        <a href="mailto:atharsha@example.com" className="hover:text-yellow-300">
+          <Mail size={28} />
+        </a>
+        <a href="https://github.com/" className="hover:text-yellow-300">
+          <Github size={28} />
+        </a>
+        <a href="https://linkedin.com/" className="hover:text-yellow-300">
+          <Linkedin size={28} />
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
