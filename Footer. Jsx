@@ -1,0 +1,11 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#0f62fe] text-center py-4 text-sm">
+      © 2025 IBM-FE-Portfolio. All Rights Reserved.
+    </footer>
+  );
+};
+
+export default Footer;
